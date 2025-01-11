@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    'clash_of_clans' => [
+        'base_url' => env('CLASH_OF_CLANS_BASE_URL', 'https://api.clashofclans.com/v1'),
+        'api_token' => env('CLASH_OF_CLANS_API_TOKEN'),
+    ],
+
+    'epic_game' => [
+        'base_url' => env('EPIC_GAMES_BASE_URL', 'https://epic-games-store.p.rapidapi.com/getFreeGames/country/US/locale/en'),
+        'api_key' => env('EPIC_GAMES_API_KEY'),
+        'api_host' => env('EPIC_GAMES_API_HOST', 'epic-games-store.p.rapidapi.com'),
+    ],
 ];
